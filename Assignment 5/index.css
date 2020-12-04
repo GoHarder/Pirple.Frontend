@@ -1,0 +1,84 @@
+body {
+   background-color: lightblue;
+}
+
+li {
+   font-size: 1.125rem;
+}
+
+p {
+   font-size: 1.25rem;
+}
+
+h1,
+h2 {
+   padding-bottom: 1rem;
+}
+
+h1 {
+   text-decoration: underline;
+   font-weight: bold;
+}
+
+.ordered {
+   list-style-type: upper-roman;
+}
+
+.unordered {
+   list-style-image: url('images/chevron_right.png');
+}
+
+#ingredients {
+   background-color: lightgray;
+}
+
+#directions {
+   background-color: lightgreen;
+}
+
+#image1 {
+   width: 300px;
+}
+
+#image2 {
+   width: 400px;
+}
+
+.imageBorder {
+   border: 1px solid black;
+}
+
+.link li a {
+   text-decoration: none;
+   color: green;
+}
+
+.subhead {
+   padding-bottom: 2rem;
+   margin: 0.25rem;
+}
+
+.important {
+   background-color: darkred;
+   color: white;
+}
+
+.padTop {
+   padding-top: 1rem;
+}
+
+.orange {
+   background-color: darkorange;
+}
+
+.center {
+   text-align: center;
+}
+
+.uppercase {
+   text-transform: uppercase;
+}
+
+.green {
+   color: green;
+}

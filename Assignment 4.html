@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <title>Books</title>
+   </head>
+   <body>
+      <h1>Book Checkout</h1>
+      <hr />
+
+      <!-- User Form -->
+      <h2>User Form:</h2>
+
+      <form id="edit1" action="/api/books">
+         <div class="inputWrapper">
+            <div class="inputLabel">Checkout Length</div>
+            <select class="sizeInput" name="size">
+               <option value="1" selected>1 week</option>
+               <option value="2">2 weeks</option>
+               <option value="3">3 weeks</option>
+            </select>
+         </div>
+         <div class="inputWrapper">
+            <div class="inputLabel">Book Selection</div>
+            <div class="checkboxGroup">
+               <label><input type="checkbox" name="toppings" value="a" />Grapes of Wrath</label>
+               <label><input type="checkbox" name="toppings" value="b" />Moby Dick</label>
+               <label><input type="checkbox" name="toppings" value="c" />How to win friends and influence people</label>
+            </div>
+         </div>
+         <div class="inputWrapper ctaWrapper">
+            <button id="checkout" type="submit">Checkout</button>
+         </div>
+      </form>
+   </body>
+</html>

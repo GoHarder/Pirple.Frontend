@@ -1,0 +1,21 @@
+body {
+   background-color: lightblue;
+}
+
+li {
+   font-size: 1.125rem;
+}
+
+p {
+   font-size: 1.25rem;
+}
+
+h1,
+h2 {
+   padding-bottom: 1rem;
+}
+
+h1 {
+   text-decoration: underline;
+   font-weight: bold;
+}
